@@ -1,0 +1,57 @@
+[00:00:00] Build started
+[00:00:00] git clone -q --depth=10 https://github.com/atom/markdown-preview.git C:\projects\markdown-preview
+[00:00:01] git fetch -q origin +refs/pull/594/merge:
+[00:00:01] git checkout -qf FETCH_HEAD
+[00:00:02] Running Install scripts
+[00:00:02] Install-Product node 6
+[00:00:06] Uninstalling node 8.12.0 (x86)...
+[00:00:06] Installing node 6.17.1 (x86)...
+[00:00:06] iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/atom/ci/master/build-package.ps1'))
+[00:00:07] Downloading latest Atom release...
+[00:00:09] 
+[00:00:13] Downloading atom.zip (188,101,733 bytes)...1%
+[00:00:16] Downloading atom.zip (188,101,733 bytes)...10%
+[00:00:18] Downloading atom.zip (188,101,733 bytes)...20%
+[00:00:20] Downloading atom.zip (188,101,733 bytes)...30%
+[00:00:21] Downloading atom.zip (188,101,733 bytes)...40%
+[00:00:22] Downloading atom.zip (188,101,733 bytes)...50%
+[00:00:23] Downloading atom.zip (188,101,733 bytes)...60%
+[00:00:24] Downloading atom.zip (188,101,733 bytes)...70%
+[00:00:24] Downloading atom.zip (188,101,733 bytes)...80%
+[00:00:25] Downloading atom.zip (188,101,733 bytes)...90%
+[00:00:25] Downloading atom.zip (188,101,733 bytes)...100%
+[00:00:34] Using Atom version: 
+[00:00:34] Atom    : 1.55.0
+[00:00:34] Electron: 6.1.12
+[00:00:34] Chrome  : 76.0.3809.146
+[00:00:34] Node    : 12.4.0
+[00:00:34] 
+[00:00:34] Using APM version: 
+[00:00:35] apm  2.5.2
+[00:00:35] npm  6.14.8
+[00:00:35] node 12.4.0 ia32
+[00:00:35] atom 1.55.0
+[00:00:35] python 2.7.15
+[00:00:35] git 2.19.1.windows.1
+[00:00:35] visual studio 2013
+[00:00:36] Downloading package dependencies...
+[00:00:43] Installing locked modules done
+[00:00:43] 
+[00:00:47] Linting package...
+[00:00:47] 
+[00:00:47] Γ£ô Ok! ┬╗ 0 errors and 0 warnings in 0 files
+[00:00:47] 
+[00:00:48] Linting package specs...
+[00:00:48] 
+[00:00:48] Γ£ô Ok! ┬╗ 0 errors and 0 warnings in 0 files
+[00:00:48] 
+[00:00:49] Running specs...
+[00:00:50] 
+[00:00:52] [2648:0411/195253.135:INFO:CONSOLE(134)] "document.registerElement is deprecated and will be removed in M80, around February 2020. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 and https://developers.google.com/web/updates/2019/07/web-components-time-to-upgrade for more details.", source: C:\projects\markdown-preview\Atom\resources\app.asar\src\styles-element.js (134)
+[00:01:14] ...............................................................WARNING: Leaking subscriptions for paths: C:\projects\markdown-preview\spec\fixtures\subdir
+[00:01:15] ..
+[00:01:15] 
+[00:01:15] Finished in 22.259 seconds
+[00:01:15] 65 tests, 155 assertions, 0 failures, 0 skipped
+[00:01:15] 
+[00:01:15] Build success
